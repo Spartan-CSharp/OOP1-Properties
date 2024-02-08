@@ -10,6 +10,11 @@ namespace ConsoleUI
 	{
 		static void Main(string[] args)
 		{
+			AddressModel address = new AddressModel("123 Some Street", "Scranton", "PA", "12345-6789");
+
+			Console.WriteLine(address.FullAddress);
+
+			_ = Console.ReadLine();
 		}
 	}
 }
